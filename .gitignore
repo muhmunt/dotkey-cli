@@ -1,0 +1,6 @@
+dotkey
+.env
+*.db
+.DS_Store
+Thumbs.db
+dist/
