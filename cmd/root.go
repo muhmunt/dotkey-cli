@@ -23,10 +23,10 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "dotkey",
-	Short: "dotkey — manage environment variables from the terminal",
-	Long: `dotkey lets you pull, push, and manage environment variables
-without opening a browser or sharing .env files manually.`,
+	Use:     "dotkey",
+	Short:   "dotkey — manage environment variables from the terminal",
+	Long:    `dotkey lets you pull, push, and manage environment variables\nwithout opening a browser or sharing .env files manually.`,
+	Version: config.Version,
 	SilenceUsage:  true,
 	SilenceErrors: true,
 }

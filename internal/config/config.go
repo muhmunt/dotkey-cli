@@ -8,6 +8,9 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+// Version is set at build time via ldflags: -X dotkey-cli/internal/config.Version=<tag>
+var Version = "dev"
+
 type Config struct {
 	APIURL             string `yaml:"api_url"`
 	WebURL             string `yaml:"web_url"`
