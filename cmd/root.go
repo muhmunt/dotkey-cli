@@ -65,6 +65,7 @@ func init() {
 		newDiffCmd(),
 		newHistoryCmd(),
 		newRollbackCmd(),
+		newRunCmd(),
 	)
 }
 
